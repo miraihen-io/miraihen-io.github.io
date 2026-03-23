@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Semangat Tina!</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(135deg, #ff6a00, #ee0979);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      overflow: hidden;
+      text-align: center;
+      padding: 20px;
+    }
+    h1 {
+      font-size: 2.5em;
+      margin: 0.2em;
+      animation: bounce 2s infinite;
+    }
+    p {
+      font-size: 1.2em;
+      margin: 0.8em 20px;
+      line-height: 1.6em;
+    }
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-15px); }
+    }
+    /* Background animasi */
+    .bg-animation {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      background: radial-gradient(circle at 30% 30%, rgba(255,255,255,0.1), transparent 70%),
+                  radial-gradient(circle at 70% 70%, rgba(255,255,255,0.1), transparent 70%);
+      animation: move 12s infinite alternate;
+    }
+    @keyframes move {
+      0% { background-position: 0% 0%, 100% 100%; }
+      100% { background-position: 100% 0%, 0% 100%; }
+    }
+  </style>
+</head>
+<body>
+  <div class="bg-animation"></div>
+  <h1>Hai Tina! 🌟</h1>
+  <p>
+    Aku ingin kamu tahu, setiap langkah kecil yang kamu ambil hari ini berarti.<br>
+    Kadang dunia terasa berat, tapi percayalah, kamu lebih kuat dari yang kamu pikirkan.<br>
+    Jangan takut gagal, karena dari kesalahanlah kita belajar dan tumbuh.
+  </p>
+  <p>
+    Saat kamu merasa lelah, ingat semua momen indah yang sudah kamu capai.<br>
+    Hargai dirimu sendiri, beri waktu untuk beristirahat, tapi jangan berhenti melangkah.<br>
+    Setiap usaha yang kamu lakukan, sekecil apapun, mendekatkanmu ke tujuanmu.
+  </p>
+  <p>
+    Hari ini mungkin tidak sempurna, tapi kamu punya kekuatan untuk membuat besok lebih baik.<br>
+    Jadikan senyum dan semangatmu sebagai cahaya, bukan hanya untuk dirimu, tapi juga bagi orang di sekitarmu.<br>
+    Tina, jangan lupa: kamu berharga, kamu luar biasa, dan kamu pasti bisa melewati semua tantangan.
+  </p>
+  <p>
+    Jadi tarik napas dalam-dalam, tebarkan energi positif, dan teruslah maju.<br>
+    Dunia menunggu versi terbaik dari dirimu, dan aku percaya kamu bisa sampai di sana.<br>
+    Semangat terus, Tina! 💪✨
+  </p>
+
+  <!-- Musik semangat online -->
+  <audio src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" autoplay loop></audio>
+</body>
+</html>
